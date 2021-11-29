@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio14.Views.ProductosList"
+             xmlns:viewModel="clr-namespace:Laboratorio14.ViewModels"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    
+    <ContentPage.BindingContext>
+        <viewModel:MainViewModel></viewModel:MainViewModel>
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="15">
+
+<StackLayout Orientation="Horizontal">
+        <Button CornerRadius="100" Text="Limpiar lista" BackgroundColor="Red" FontAttributes="Bold" Command="{Binding DeleteAllRowCommand}" TextColor="White"></Button>
+    </StackLayout>
+    
+    
+    <StackLayout>
+        <ListView ItemsSource="{Binding ListProductos}" HasUnevenRows="True" BackgroundColor="WhiteSmoke">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding ProductoNombre}" TextColor="Black"></Label>
+                                <Label Text="{Binding  ProductoFechaIngreso, StringFormat='{0:MMMM dd, yyyy}'}" />
+                                <Label Text="{Binding ProductoCantidad}" TextColor="Black"></Label>
+                                <Label Text="{Binding ProductoStock}">
+                                    <Label.Triggers>
+                                        <DataTrigger TargetType="Label" Binding="{Binding ProductoStock}" Value="false">
+                                            <Setter Property="Text"  Value="Sin Stock" />
+                                        </DataTrigger>
+                                        <DataTrigger TargetType="Label" Binding="{Binding ProductoStock}" Value="true">
+                                            <Setter Property="Text"  Value="Stock disponible" />
+                                        </DataTrigger>
+                                    </Label.Triggers>
+                                </Label>
+                            </StackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="UpdateRow_Tapped" CommandParameter="{Binding .}"></TapGestureRecognizer>
+                                <SwipeGestureRecognizer Swiped="DeleteRow_Swiped" Direction="Right" CommandParameter="{Binding .}"></SwipeGestureRecognizer>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+    </StackLayout>
+        
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,17 @@
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\bin\Debug\netstandard2.0\S14_XamlEFC.deps.json
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\bin\Debug\netstandard2.0\S14_XamlEFC.dll
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\bin\Debug\netstandard2.0\ref\S14_XamlEFC.dll
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\bin\Debug\netstandard2.0\S14_XamlEFC.pdb
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\S14_XamlEFC.csproj.AssemblyReference.cache
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\S14_XamlEFC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\Views\ProductoPage.xaml.g.cs
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\Views\ProductosList.xaml.g.cs
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\S14_XamlEFC.AssemblyInfoInputs.cache
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\S14_XamlEFC.AssemblyInfo.cs
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\S14_XamlEFC.csproj.CoreCompileInputs.cache
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\S14_XamlEFC.dll
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\ref\S14_XamlEFC.dll
+C:\Users\percy\Source\Repos\S14_XamlEFC\S14_XamlEFC\S14_XamlEFC\obj\Debug\netstandard2.0\S14_XamlEFC.pdb
